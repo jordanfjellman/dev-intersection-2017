@@ -1,5 +1,5 @@
 Code - http://github.com/michelebusta/microserviceworkshops
-Labs - http://bit.ly/24nHirnN
+Labs - http://bit.ly/2rnHirN
 
 # Overview
 
@@ -68,3 +68,22 @@ Business microservices -> domain microservices
 - Milisecond delays are rarely a real problem
 - Queries accross domain are switched out for projections
 - Sharing code != bad citizen, just used packages
+
+# Containers
+
+## Docker
+
+### Logging
+
+- FileBee
+- ElasticSearch
+- Kabanna
+- Permethious
+
+#### Logs vs Audits
+
+Logs can be 'Lossy', audits must get there
+
+### Build CI
+
+- Rundeck
